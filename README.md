@@ -10,25 +10,40 @@ This is a description of my work on
 during *Google Summer of Code 2022* with
 [Sugar Labs](https://github.com/sugarlabs/). This repository contains
 [links](./authored-files/), samples of my work, and
-examples.The code for artboard management and canvas generated using p5 is present in [authored files](./authored-files).
+examples.The code samples for changes related to improvements and bug fixes are present in [authored files](./authored-files).
 </br>
 
 
 
 ## 📙 Abstract
 
-The aim of [*Music Blocks*](https://musicblocks.sugarlabs.org/) is to teach
-beginners how to program, using a snap-together block-based instructions to
-create music. 
+[*Music Blocks*](https://musicblocks.sugarlabs.org/) is a Visual 
+Programming Language and collection of manipulative tools for exploring
+musical and mathematical concepts in an integrative and fun way.
 
 The purpose of my project is 
 
-<ul>
+<!-- <ul>
 <li>develop a framework to draw and manage graphics which will be generated JavaScript code </li>
 <li> how we can use modern artistic library p5.js in our project to support more complex drawings</li>
 <li> It also aimed to extend support for more turtles without loss in performance</li>
 </ul>
-</br>
+</br> -->
+<ul>
+<li>*Loading of requirements* {important} 
+  <ol>
+  <li>Avoid race conditions</li>
+  <li>Ensure Android Version is reasonably robust</li>
+  <li>To ensure better and reliable loading experience in both chrome and firefox.</li>
+  <li>Research on how to manage loading requirements for large projects</li>
+  </ol></li>
+<li>Planet’s cross origin errors</li> 
+<li>Regression in music utils code</li> 
+<li>Better characterization of code</li> 
+<li>Reduce global variables/objects scattered across the modules as much as possible.</li>
+<li>Other bugs in v3 which can be resolved</li>  
+<li>Documentation Maintenance</li></ul> 
+
 
 ## 📝 Tech Stack
 
