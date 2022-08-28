@@ -30,7 +30,7 @@ The purpose of my project is to maintain and fix
 </ul>
 </br> -->
 <ul>
-<li>**Loading of requirements** {Primary}
+<li><b>Loading of requirements {Primary}</b>
   <ol>
   <li>Avoid race conditions</li>
   <li>Ensure Android Version is reasonably robust</li>
