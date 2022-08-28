@@ -21,7 +21,7 @@ examples.The code samples for changes related to improvements and bug fixes are 
 Programming Language and collection of manipulative tools for exploring
 musical and mathematical concepts in an integrative and fun way.
 
-The purpose of my project is 
+The purpose of my project is to maintain and fix
 
 <!-- <ul>
 <li>develop a framework to draw and manage graphics which will be generated JavaScript code </li>
@@ -30,7 +30,7 @@ The purpose of my project is
 </ul>
 </br> -->
 <ul>
-<li>*Loading of requirements* {important} 
+<li>**Loading of requirements** {Primary}
   <ol>
   <li>Avoid race conditions</li>
   <li>Ensure Android Version is reasonably robust</li>
