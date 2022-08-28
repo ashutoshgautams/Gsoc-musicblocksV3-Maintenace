@@ -37,11 +37,11 @@ The purpose of my project is to maintain and fix
   <li>To ensure better and reliable loading experience in both chrome and firefox.</li>
   <li>Research on how to manage loading requirements for large projects</li>
   </ol></li>
-<li></b>Planet’s</b> cross origin errors</li> 
-<li></b>Regression</b> in music utils code</li> 
-<li></b>Better characterization</b> of code</li> 
-<li></b>Other bugs</b> in v3 which can be resolved</li>  
-<li></b>Documentation</b> Maintenance</li></ul> 
+<li><b>Planet’s</b> cross origin errors</li> 
+<li><b>Regression</b> in music utils code</li> 
+<li><b>Better characterization</b> of code</li> 
+<li><b>Other bugs</b> in v3 which can be resolved</li>  
+<li><b>Documentation</b> Maintenance</li></ul> 
 
 
 ## 📝 Tech Stack
