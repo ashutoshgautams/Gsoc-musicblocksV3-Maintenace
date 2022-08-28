@@ -1,13 +1,13 @@
 ![GSoC](https://img.shields.io/badge/Google%20Summer%20of%20Code-Music%20blocks-red)![Artboard](https://img.shields.io/badge/Graphics%20Management-Artboard-blue)![Javascript](https://img.shields.io/badge/Javascript-React-brightgreen)![p5](https://img.shields.io/badge/Library-p5-violet)![Project](https://img.shields.io/badge/Project-musicblocks-critical)![Organization](https://img.shields.io/badge/Organization-SuagrLabs-yellow)![Year](https://img.shields.io/badge/Year-2021-brightgreen)![Version](https://img.shields.io/badge/version-4.0-blue)
-# Google Summer of Code 2021 Final report
+# Google Summer of Code 2022 Final report
 
-## Title - Music Blocks Graphics Management
+## Title - Music Blocks V3 Maintenance
 
 ### Organization - Sugarlabs
 ![UpdateWithProps](assets/images/gsoc+sugarlabs.png)
 This is a description of my work on
-[Graphics Management](https://summerofcode.withgoogle.com/projects/#5670669326483456)
-during *Google Summer of Code 2021* with
+[V3 Maintenance](https://summerofcode.withgoogle.com/projects/#5670669326483456)
+during *Google Summer of Code 2022* with
 [Sugar Labs](https://github.com/sugarlabs/). This repository contains
 [links](./authored-files/), samples of my work, and
 examples.The code for artboard management and canvas generated using p5 is present in [authored files](./authored-files).
