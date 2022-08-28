@@ -30,19 +30,18 @@ The purpose of my project is to maintain and fix
 </ul>
 </br> -->
 <ul>
-<li><b>Loading of requirements {Primary}</b>
+<li><b>Loading</b> of requirements {Primary}
   <ol>
   <li>Avoid race conditions</li>
   <li>Ensure Android Version is reasonably robust</li>
   <li>To ensure better and reliable loading experience in both chrome and firefox.</li>
   <li>Research on how to manage loading requirements for large projects</li>
   </ol></li>
-<li>Planet’s cross origin errors</li> 
-<li>Regression in music utils code</li> 
-<li>Better characterization of code</li> 
-<li>Reduce global variables/objects scattered across the modules as much as possible.</li>
-<li>Other bugs in v3 which can be resolved</li>  
-<li>Documentation Maintenance</li></ul> 
+<li></b>Planet’s</b> cross origin errors</li> 
+<li></b>Regression</b> in music utils code</li> 
+<li></b>Better characterization</b> of code</li> 
+<li></b>Other bugs</b> in v3 which can be resolved</li>  
+<li></b>Documentation</b> Maintenance</li></ul> 
 
 
 ## 📝 Tech Stack
