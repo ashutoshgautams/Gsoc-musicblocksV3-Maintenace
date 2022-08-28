@@ -290,7 +290,7 @@ Thanks to [Google](https://www.google.com/),[Sugarlabs](https://www.sugarlabs.or
 
 Thanks
 
-Chandan
+Ashutosh Gautam
 
 
 
