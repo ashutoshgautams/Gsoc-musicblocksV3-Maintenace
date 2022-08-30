@@ -102,13 +102,13 @@ This period was also used for introductions and getting to know fellow contribut
             </li>
         </ul>
     
-    </li>
+</li>
     
-    <li>
+<li>
     Getting to know the [codebase](https://github.com/sugarlabs/musicblocks) of music blocks
     </li>
 
-    <li>
+<li>
     Communication with mentors regarding the details of the project
     </li>
 </ul>
