@@ -92,13 +92,28 @@ This period was also used for introductions and getting to know fellow contribut
 
 **Key-events during Community Bonding Period**
 
--Creation of updated timeline - exhaustive list of objectives, a narrative of the features to build, 
-and a list of implementation detail segmented in 12 equal parts
-[Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
--Getting to know the [codebase](https://github.com/sugarlabs/musicblocks) of music blocks
--Communication with mentors regarding the details of the project
+<ul>
+    <li>
+    Creation of updated timeline - exhaustive list of objectives, a narrative of the features to build, 
+    and a list of implementation detail segmented in 12 equal parts
+        <ul>
+            <li>
+             [Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
+            </li>
+        </ul>
+    
+    </li>
+    
+    <li>
+    Getting to know the [codebase](https://github.com/sugarlabs/musicblocks) of music blocks
+    </li>
 
-My work, basically, consisted of five major parts:
+    <li>
+    Communication with mentors regarding the details of the project
+    </li>
+</ul>
+
+My work, basically, consisted of four major parts:
 <ol>
     <li>  
         Loading speed and reliability of web application
