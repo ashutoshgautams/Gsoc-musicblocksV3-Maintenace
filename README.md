@@ -94,8 +94,8 @@ This period was also used for introductions and getting to know fellow contribut
 
 -Creation of updated timeline - exhaustive list of objectives, a narrative of the features to build, 
 and a list of implementation detail segmented in 12 equal parts
-![Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
--Getting to know the ![codebase](https://github.com/sugarlabs/musicblocks) of music blocks
+[Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
+-Getting to know the [codebase](https://github.com/sugarlabs/musicblocks) of music blocks
 -Communication with mentors regarding the details of the project
 
 My work, basically, consisted of five major parts:
@@ -115,8 +115,7 @@ My work, basically, consisted of five major parts:
 </ol>
 
 
-`Since, the restructuring was not possible to do linearly, I did it in multiple
-turns.`
+`Since, major part of the code cannot be changed as version-4 is in the making for better characterization and modularity, so the maintenance is majorly focused on small changes that can leave maximum impact on performance of the application.`
 
 ## 📝 Prototyping the Artboard Framework
 
