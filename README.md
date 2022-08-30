@@ -55,7 +55,7 @@ diagnosing performance issues:-
 
 ![Metrics](assets/images/metrics.png)
 
-In the beginning, I explored many web application performance metrics website to check loading reliability and performance:-
+In the beginning, I explored many web application performance metrics website to check **loading reliability** and performance:-
 
 <table>
      <th> 
@@ -73,7 +73,10 @@ In the beginning, I explored many web application performance metrics website to
     
 </table>
 
-Finally, I decided to go with **PageSpeed Insights**. I have chosen this platform because it can evaluate all sorts of factors, including performance, accessibility, progressive web apps, and more. Apart from that, PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved. PSI provides both lab and field data about a page. Lab data is useful for debugging performance issues, as it is collected in a controlled environment
+Finally, I decided to go with **PageSpeed Insights**. I have chosen this platform because it can evaluate all sorts of factors, including performance, accessibility, progressive web apps, and more. Apart from that, PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved. PSI provides both lab and field data about a page. Lab data is useful for debugging performance issues, as it is collected in a controlled environment . 
+
+Also, I have used **FFmpeg** to convert GIF to .mp4 and .webm to improve loading speed and reliability.
+[**`FFmpeg`**](https://ffmpeg.org/) is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge. No matter if they were designed by some standards committee, the community or a corporation. It is also highly portable: FFmpeg compiles, runs, and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft Windows, the BSDs, Solaris, etc. under a wide variety of build environments, machine architectures, and configurations.
 
 </br>
 
