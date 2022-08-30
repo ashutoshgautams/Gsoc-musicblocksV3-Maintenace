@@ -51,7 +51,7 @@ I've used my intensive experience with **HTML5, CSS and JavaScript** to fix and 
 [**`JavaScript`**](https://en.wikipedia.org/wiki/JavaScript) is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
 
 In addition, for maintaining the `performance` of the application, many latest tools are used that help in website's optimizations by providing insights on various metrics and suggest opportunities to improve by 
-diagnosin performance issues:-
+diagnosing performance issues:-
 
 ![Metrics](assets/images/metrics.png)
 
@@ -62,13 +62,13 @@ In the beginning, I explored many web application performance metrics website to
        Performance and availability monitoring 
     </th>
     <tr> 
-        <td><a href="https://pagespeed.web.dev/" target="_top">Pagespeed Insights (Google) - PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.</a></td>
+        <td><a href="https://pagespeed.web.dev/" target="_top">Pagespeed Insights (Google)</a></td>
     </tr>
     <tr> 
-        <td><a href="https://gtmetrix.com/" target="_top">GT Metrix - developed by Carbon60 as a tool for customers to easily test the performance of their webpages. </a></td>
+        <td><a href="https://gtmetrix.com/" target="_top">GT Metrix (Carbon 60)</a></td>
     </tr>
     <tr> 
-        <td><a href="https://www.pingdom.com/" target="_top">Pingdom -A Swedish website monitoring software as a service company launched in Stockholm and later acquired by the Austin, Texas-based SolarWinds.</a></td>
+        <td><a href="https://www.pingdom.com/" target="_top">Pingdom (SolarWinds)</a></td>
     </tr>
     
 </table>
