@@ -98,14 +98,14 @@ This period was also used for introductions and getting to know fellow contribut
     and a list of implementation detail segmented in 12 equal parts
         <ul>
             <li>
-             [Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
+            <a href=https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#>Gsoc Timeline</a>
             </li>
         </ul>
     
 </li>
     
 <li>
-    Getting to know the [codebase](https://github.com/sugarlabs/musicblocks) of music blocks
+    Getting to know the <a href=https://github.com/sugarlabs/musicblocks>codebase</a> of music blocks
     </li>
 
 <li>
