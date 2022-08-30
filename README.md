@@ -76,34 +76,41 @@ In the beginning, I explored many web application performance metrics website to
 Finally, I decided to go with **PageSpeed Insights**. I have chosen this platform because it can evaluate all sorts of factors, including performance, accessibility, progressive web apps, and more. Apart from that, PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved. PSI provides both lab and field data about a page. Lab data is useful for debugging performance issues, as it is collected in a controlled environment . 
 
 Also, I have used **FFmpeg** to convert GIF to .mp4 and .webm to improve loading speed and reliability.
+
 [**`FFmpeg`**](https://ffmpeg.org/) is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the cutting edge. No matter if they were designed by some standards committee, the community or a corporation. It is also highly portable: FFmpeg compiles, runs, and passes our testing infrastructure FATE across Linux, Mac OS X, Microsoft Windows, the BSDs, Solaris, etc. under a wide variety of build environments, machine architectures, and configurations.
 
 </br>
 
 ## ✨ Work Progression
 
-During the *community bonding period* I was assigned task to come up with a prototype for handling many sketches. I started exploring many Javascript library to manage canvas so that we donot need to write functions ourselves. I decided to go with **p5.js** as it comes up with many pre-defined functions to draw, design and handling canvases without loss in performance. My mentor also advised me to use some library to fasten our development as there is no need to waste time on writing those functions which someone has already written and tested.
+In the community bonding period, the work was mostly confined to coming up with an updated time-line with the detailed list of tasks and their potential solutions. In this period there were a lot of meetings and discussions with mentors on video and text based platforms and through extensive communication a timeline was drawn that was in the best interest of the project. 
+This period was also used for introductions and getting to know fellow contributors and also getting used to and familiar with the organization’s work culture and best practices.
+
 
 ![Cat](assests/../assets/gifs/cat.gif)
 
-This project was also dependent on the progress of other projects which are blocks refactoring, plattes and menu handling. Therefore, I progressed in small steps splitting the task across
-multiple PRs. Throughout the ten weeks of the *coding period* , my major time goes in the experimenting with canvases and their performance, adding support for typescript, integrating other compnonets with the artboard manager component.
+
+**Key-events during Community Bonding Period**
+
+-Creation of updated timeline - exhaustive list of objectives, a narrative of the features to build, 
+and a list of implementation detail segmented in 12 equal parts
+![Gsoc Timeline](https://docs.google.com/document/d/1O-M2beXdoQVMs1HpkLHPCtkveAkN-jCB6p_2EI7GTkg/edit#)
+-Getting to know the ![codebase](https://github.com/sugarlabs/musicblocks) of music blocks
+-Communication with mentors regarding the details of the project
+
 My work, basically, consisted of five major parts:
 <ol>
     <li>  
-        Prototyping the Artbaord Framework
+        Loading speed and reliability of web application
     </li>
     <li> 
-        Communicating with p5 sketch back and forth 
+        Resolving Cross Origin Problems
     </li>
     <li>
-         Handle multiple sketches with objects efficiently
+         Regression in music utils code
     </li>
     <li>
-        Integrating all dependent components together
-    </li>
-    <li> 
-        testing if it works as expected
+        Documentation Maintenance 
     </li>
 </ol>
 
