@@ -5,7 +5,7 @@
 
 ### Organization - Sugarlabs
 ![UpdateWithProps](assets/images/gsoc+sugarlabs.png)
-This is a description of my work on
+This is a elucidation of my work on
 [V3 Maintenance](https://summerofcode.withgoogle.com/programs/2022/projects/oiE2yRSV)
 during *Google Summer of Code 2022* with
 [Sugar Labs](https://github.com/sugarlabs/). This repository contains
@@ -23,12 +23,7 @@ musical and mathematical concepts in an integrative and fun way.
 
 The purpose of my project is to maintain and fix
 
-<!-- <ul>
-<li>develop a framework to draw and manage graphics which will be generated JavaScript code </li>
-<li> how we can use modern artistic library p5.js in our project to support more complex drawings</li>
-<li> It also aimed to extend support for more turtles without loss in performance</li>
-</ul>
-</br> -->
+
 <ul>
 <li><b>Loading</b> of requirements {Primary}
   <ol>
@@ -47,49 +42,38 @@ The purpose of my project is to maintain and fix
 ## 📝 Tech Stack
 
 
-I've used **React, p5.js and TypeScript** upto the **ECMAScript 8 (2017)** specification widely
-relying on *ES6* `classes`, `let`/`const`, `arrow functions`, `syntactical feature` from *ES8*. In the manipulation 
-of canvases generated using  *p5.js* - I required the use of
-**React hooks** and **CSS**, and I used the *DOM* manipulation features of JavaScript
-to interact with p5 sketches by wrapping it in a **React component**.
+I've used my intensive experience with **HTML5, CSS and JavaScript** to fix and improve many features of version-3 since these are the primary languages used to build musicblocks V3.
 
-[**`React`**](https://reactjs.org/) is one of the most popular JavaScript libraries for creating single page applications.
+[**`HTML5`**](https://en.wikipedia.org/wiki/HTML5) includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications.
 
-[**`p5.js`**](https://p5js.org/) is a JavaScript library with a full set of drawing functionality.
+[**`CSS`**](https://en.wikipedia.org/wiki/CSS/) is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-[**`TypeScript`**](https://www.typescriptlang.org/) is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.
+[**`JavaScript`**](https://en.wikipedia.org/wiki/JavaScript) is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
 
-In addition, for maintaining the `performance` of the application, many latest React features have been used:
+In addition, for maintaining the `performance` of the application, many latest tools are used that help in website's optimizations by providing insights on various metrics and suggest opportunities to improve by 
+diagnosin performance issues:-
 
-![Hooks](assets/images/hooks.png)
+![Metrics](assets/images/metrics.png)
 
-The coding architecture followed is [`MVVM` **Model-View-ViewModel**](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) 
-for all the components. 
-
-In the beginning, I explored many JavaScript library for drawing complex canvas graphics using React. Some of them includes 
+In the beginning, I explored many web application performance metrics website to check loading reliability and performance:-
 
 <table>
      <th> 
-        Libraries
+       Performance and availability monitoring 
     </th>
     <tr> 
-        <td><a href="https://github.com/konvajs/react-konva" target="_top">react-konva</a></td>
+        <td><a href="https://pagespeed.web.dev/" target="_top">Pagespeed Insights (Google) - PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved.</a></td>
     </tr>
     <tr> 
-        <td><a href="http://paperjs.org/" target="_top">paper.js</a></td>
+        <td><a href="https://gtmetrix.com/" target="_top">GT Metrix - developed by Carbon60 as a tool for customers to easily test the performance of their webpages. </a></td>
     </tr>
     <tr> 
-        <td><a href="http://fabricjs.com/" target="_top">fabric.js</a></td>
+        <td><a href="https://www.pingdom.com/" target="_top">Pingdom -A Swedish website monitoring software as a service company launched in Stockholm and later acquired by the Austin, Texas-based SolarWinds.</a></td>
     </tr>
-    <tr> 
-        <td><a href="https://www.npmjs.com/package/react-p5" target="_top">react-p5</a></td>
-    </tr>
-    <tr> 
-        <td><a href="https://www.npmjs.com/package/react-p5-wrapper" target="_top">react-p5-wrapper</a></td>
-    </tr>
+    
 </table>
 
-Finally, I decided to go with **p5.js**. I have chosen this library because it is actively maintained and documentation is really helpful. It offers feature to integrate sound with the canvas too. The graphics can be handled more easily and it is beginner friendly. Many libraries I have found are written on top of **p5.js**, so why to use a library for that. I took help from `react-p5` and `react-p5-wrapper` for typescript support and intergration of p5 sketches with react without actually using them. This was the challenging part to establish a bidirectional communication between the main React app and sketches. 
+Finally, I decided to go with **PageSpeed Insights**. I have chosen this platform because it can evaluate all sorts of factors, including performance, accessibility, progressive web apps, and more. Apart from that, PageSpeed Insights (PSI) reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved. PSI provides both lab and field data about a page. Lab data is useful for debugging performance issues, as it is collected in a controlled environment
 
 </br>
 
