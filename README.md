@@ -137,6 +137,13 @@ My work, basically, consisted of four major parts:
 Initially, the speed and relaibility of v3 requirements loading was very slow on both chrome and firefox.
 The report by [pagespeed insights](https://pagespeed.web.dev/) :- 
 
+![Loading Report](assests/../assets/images/loading1.png)
+![Loading Report](assests/../assets/images/loading2.png)
+![Loading Report](assests/../assets/images/loading3.png)
+![Loading Report](assests/../assets/images/loading4.png)
+![Loading Report](assests/../assets/images/loading5.png)
+![Loading Report](assests/../assets/images/loading6.png)
+
 
 
 `This issue addresses the barebones and utilities for artboard framework`:
