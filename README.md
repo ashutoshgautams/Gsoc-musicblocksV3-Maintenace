@@ -135,7 +135,7 @@ My work, basically, consisted of four major parts:
 ## 📝 Loading of Requirements
 
 Initially, the speed and relaibility of v3 requirements loading was very slow on both chrome and firefox.
-The report by [pagespeed insights](https://pagespeed.web.dev/) :- 
+The report by [PageSpeed Insights](https://pagespeed.web.dev/) :- 
 
 ![Loading Report](assests/../assets/images/loading1.png)
 ![Loading Report](assests/../assets/images/loading2.png)
@@ -143,6 +143,18 @@ The report by [pagespeed insights](https://pagespeed.web.dev/) :-
 ![Loading Report](assests/../assets/images/loading4.png)
 ![Loading Report](assests/../assets/images/loading5.png)
 ![Loading Report](assests/../assets/images/loading6.png)
+
+Overall Performance Score :- 29/100
+
+After implementation:- 
+
+![Loading Report](assests/../assets/images/loading13.png)
+![Loading Report](assests/../assets/images/loading7.png)
+![Loading Report](assests/../assets/images/loading8.png)
+![Loading Report](assests/../assets/images/loading9.png)
+![Loading Report](assests/../assets/images/loading12.png)
+
+Overall Performance Score :- 76/100
 
 
 
