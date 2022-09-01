@@ -156,27 +156,29 @@ After implementation:-
 
 Overall Performance Score :- 76/100
 
+![Loading Report](assests/../assets/images/loadingResult.png)
+
+Loading reliability and speed is increased from 29/100 to 76/100 .
+Improvement of more than 162% .
 
 
-`This issue addresses the barebones and utilities for artboard framework`:
-
-![5-points](assets/images/manager.png) 
+`This issue addresses the barebones and major sections by which loading reliability is very low`:
 
 <table>
     <tr>
         <td> 🐛 Issue </td> 
-        <td> #58 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/58" target="_top">Artboard Framework</a></td>
+        <td> #3035 #3039 #3042 #3045 #3046 #3047 #3048 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3035" target="_top">Loading Of Requirements</a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
-        <td> #71 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/71" target="_top">Artboard Framework PR</a></td>
+        <td> #3043 #3048 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/71" target="_top">Loading Of Requirements PR</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
-        <td> 7 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/71/commits" target="_top"> all-commits</a></td>
+        <td> 6 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3038/commits" target="_top"> all-commits</a></td>
     </tr>
 </table>
 
