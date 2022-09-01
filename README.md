@@ -132,9 +132,12 @@ My work, basically, consisted of four major parts:
 
 `Since, major part of the code cannot be changed as version-4 is in the making for better characterization and modularity, so the maintenance is majorly focused on small changes that can leave maximum impact on performance of the application.`
 
-## 📝 Prototyping the Artboard Framework
+## 📝 Loading of Requirements
 
-In **Musicblocks v3**, there is no proper canvas management system, however there are some files especially for handling turtle. This project was to come up with a dedicated module for artboard, hence I started working on the prototype for artboard framework. This was also the most challenging phase for me, as I have to start from scratch and design a proper file structure, understand the exact requirements, variables, sub components, how all of them will be structured. As Walter said, writing your fine line of code is always hard. I had a meeting with my mentor, he clearified all my doubts and also suggested possible prototypes along the lines of MVVM. 
+Initially, the speed and relaibility of v3 requirements loading was very slow on both chrome and firefox.
+The report by [pagespeed insights](https://pagespeed.web.dev/) :- 
+
+
 
 `This issue addresses the barebones and utilities for artboard framework`:
 
@@ -160,7 +163,7 @@ In **Musicblocks v3**, there is no proper canvas management system, however ther
 
 `There were total of seven commits which included adding artboard canvas with typescript support, p5 sketch in instance mode, etc.`
 
-## 📝 Communication between p5 sketch and react
+## 📝 Cross Origin Errors
 
 This part was partially done under the prototype, as the file structure was designed keeping in mind that p5 sketches need to be wrapped in react components.The basic idea is that the p5.js sketch is wrapped in a React component. **The data that comes into the sketch is passed on to this component as props**. Callbacks(React Hooks) are used to return information back from the sketch to the application. This specifically refers to handle multiple p5 sketches on the same screen. 
 
@@ -191,7 +194,7 @@ We declare a reference variable called "canvasRef" using React's useRef hook. Th
 This helps in wrapping up p5 sketch in a react component without losing unique reference to it in the DOM. This becomes crucial because we are handling multiple canvases simultaneously. For more detailed example refere [here](https://github.com/sugarlabs/musicblocks-v4/tree/p5-canvas-instance).  
 
 
-## 📝 Handle multiple sketches with objects efficiently
+## 📝 Regression in music utils 
 
 The `manager component` can handle multiple sketches and turtles. It generates unique ids for each artboard sketch and use it to differentiate between them while sending signals. It stores the ids in a array of list. It also establish communication between artbaord components with other components with the help of **monitor component**. It can add a new artboard(canvas), remove an existing artboard, renders a particular turtle to draw on artboard, etc. It receives `signals` from monitor component to do a change in a particular artboard. It maintains a list of artboards which are currently present in the program. 
 
@@ -224,7 +227,7 @@ Then register this function with the monitor like this -
 There were total fourteen commits consisting of adding type definitions for artboards and its props, modifying sketches for turtle and artboard to recieve signal from manager, testing the artboard, refactoring, adding more variables to the model component of manager, etc. 
 
 
-## 📝 Integrating all dependent components together
+## 📝 Documentation Maintenance
 
 This can be divided into *two* sub parts. The *first* part is to integrate manager with other artboard components and *second* is to integrate it with monitor which will connect it with other components.
 It was required that *the manager component* should also maintain a list of all the *turtles* with their own unique *id*, this list should match the ArtBoard list. 
@@ -256,7 +259,7 @@ This turtle list should be passed as a `prop` to `ArtBoardTurtle.tsx.` All the `
 
 There were a total of *eight* commits which include adding types and definitons for manager class in monitor, adding methods to `create`, `remove`, `update` artboards, etc.
 
-## 🚀 Testing and Documentation
+## 🚀 Other bugs and fixes
 
 The last week was reserved for testing but I used to test my code after frequently before making any PR. Also, for a side note, I used to take notes, document every point during the daily meetups. These things really helped me in writing this report. Every file has a README.md file which contains all the documentation.
 
