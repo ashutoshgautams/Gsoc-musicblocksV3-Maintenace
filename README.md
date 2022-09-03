@@ -225,24 +225,31 @@ Overall Performance Score :- **76/100**
 
 ## 📝 Cross Origin Errors
 
+**Before:-**
 ![Loading Report](assests/../assets/images/coe1.png)
+
+**Solution:-**
+
+Cross origin is arising due to the fonts that are being accessed from google API , removing that section of code resolves this issue.
+
+**After:-**
 ![Loading Report](assests/../assets/images/coe2.png)
 
 <table>
     <tr>
         <td> 🐛 Issue </td> 
-        <td> #78 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/78" target="_top">Artboard Manager Framework </a></td>
+        <td> #3049 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3049" target="_top">Cross origin errors </a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
-        <td> #80 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top">Manager PR</a></td>
+        <td> #3050 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3050" target="_top">Mcross origin errors removed</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
-        <td> 14 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top"> all-commits</a></td>
+        <td> 1 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3050/files" target="_top"> all-commits</a></td>
     </tr>
 </table>
 
