@@ -256,6 +256,7 @@ Cross origin is arising due to the fonts that are being accessed from google API
 ## 📝 Regression in music utils 
 
 **For the blocks :-**
+
 ![Regression](assests/../assets/images/regression1.png)
 
 ![Regression](assests/../assets/images/regression2.png)
@@ -280,30 +281,31 @@ obj.findIndex(item => logicalEquals(item, thisPitch))
 the new logicalEquals function should return true for E# and F, E and Fb, etc but false for say E# and F#
 whenever there are two white keys in a row. E==Fb and E#==F; B==Cb and B#==C
 
-![Regression](assests/../assets/images/Regression Resolution.png)
+![Regression](assests/../assets/images/rr.png)
 
 **After implementation:-**
+
 ![Regression](assests/../assets/images/regression3.png)
 
 <table>
     <tr>
         <td> 🐛 Issue </td> 
-        <td> #78 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/78" target="_top">Artboard Manager Framework </a></td>
+        <td> #3055 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3055" target="_top">Artboard Manager Framework </a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
-        <td> #80 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top">Manager PR</a></td>
+        <td> #3054 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3054" target="_top">Manager PR</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
-        <td> 14 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top"> all-commits</a></td>
+        <td> 3 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3054/files" target="_top"> all-commits</a></td>
     </tr>
 </table>
 
-There were total fourteen commits consisting of adding type definitions for artboards and its props, modifying sketches for turtle and artboard to recieve signal from manager, testing the artboard, refactoring, adding more variables to the model component of manager, etc. 
+There were total three commits consisting of actual code change and then formatting of code through prettier to follow the style of rest of the code. 
 
 
 ## 📝 Documentation Maintenance
