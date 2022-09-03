@@ -10,7 +10,7 @@ This is a elucidation of my work on
 during *Google Summer of Code 2022* with
 [Sugar Labs](https://github.com/sugarlabs/). This repository contains
 [links](./authored-files/), samples of my work, and
-examples.The code samples for changes related to improvements and bug fixes are present in [authored files](./authored-files).
+examples.The code samples for changes related to improvements and bug fixes are present in [authored files](./authored).
 </br>
 
 
