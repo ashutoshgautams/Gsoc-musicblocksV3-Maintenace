@@ -378,11 +378,11 @@ There are many enhancements that can be done particularly to improve characteriz
 
 Some issues that are particularly fun to solve are :-
 
-[#3064](https://github.com/sugarlabs/musicblocks/issues/3066)
+[#3064 Remove Arrow](https://github.com/sugarlabs/musicblocks/issues/3066)
 
-[#3066](https://github.com/sugarlabs/musicblocks/issues/3064)
+[#3066 Wav files](https://github.com/sugarlabs/musicblocks/issues/3064)
 
-[#3011](https://github.com/sugarlabs/musicblocks/issues/3011)
+[#3011 Drag in touchscreen](https://github.com/sugarlabs/musicblocks/issues/3011)
 
 
 ### 👨 Acknowledgements
