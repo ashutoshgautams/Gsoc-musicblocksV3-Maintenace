@@ -146,13 +146,12 @@ The report by [PageSpeed Insights](https://pagespeed.web.dev/) :-
 ![Loading Report](assests/../assets/images/loading5.png)
 ![Loading Report](assests/../assets/images/loading6.png)
 
-`Overall Performance Score :- **29/100**`
+Overall Performance Score :- **29/100**
 
 **Resolution :-**
 
 <ol>
-    <li>#3043
-        Deleted -- `/loading-animation.gif` size- 3.44mb (3612912 kb) -> Added -- `/loading-animation.mp4` size - less than **260kb**
+    <li><b> Deleted -- /loading-animation.gif size- 3.44mb (3612912 kb) -> Added -- /loading-animation.mp4 size - less than 260kb</b>
 
 Estimated Savings - **2.66 seconds**
 
@@ -174,8 +173,7 @@ This step solves many problems of loading issue:-
     <li>Makes the android version robust.</li>
 </ul>
     </li>
-    <li>#3048
-    Changing img to amp-img
+    <li><b>Changing img to amp-img</b>
 
 AMP may choose to delay or prioritize resource loading based on the viewport position, system resources, connection bandwidth, or other factors. The amp-img components allows the runtime to effectively manage image resources this way.
 
@@ -196,11 +194,11 @@ After implementation:-
 ![Loading Report](assests/../assets/images/loading9.png)
 ![Loading Report](assests/../assets/images/loading12.png)
 
-`Overall Performance Score :- **76/100**`
+Overall Performance Score :- **76/100**
 
 ![Loading Report](assests/../assets/images/loadingResult.png)
 
-`**Loading reliability** and speed is increased from **29/100** to **76/100** . Improvement of more than **162%** .`
+**Loading reliability** and speed is increased from **29/100** to **76/100** . Improvement of more than **162%** .
 
 
 `This issue addresses the barebones and major sections by which loading reliability is very low`:
