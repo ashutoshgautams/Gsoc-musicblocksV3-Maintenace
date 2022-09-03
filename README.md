@@ -134,7 +134,9 @@ My work, basically, consisted of four major parts:
 
 ## 📝 Loading of Requirements
 
+Musicblocks v3 is a large project with a lot of modules and functionality, and hence it is very important to follow the best practices when managing it's loading requirements.
 Initially, the speed and relaibility of v3 requirements loading was very slow on both chrome and firefox.
+
 The report by [PageSpeed Insights](https://pagespeed.web.dev/) :- 
 
 ![Loading Report](assests/../assets/images/loading1.png)
@@ -144,7 +146,47 @@ The report by [PageSpeed Insights](https://pagespeed.web.dev/) :-
 ![Loading Report](assests/../assets/images/loading5.png)
 ![Loading Report](assests/../assets/images/loading6.png)
 
-Overall Performance Score :- 29/100
+`Overall Performance Score :- **29/100**`
+
+**Resolution :-**
+
+<ol>
+    <li>#3043
+        Deleted -- `/loading-animation.gif` size- 3.44mb (3612912 kb) -> Added -- `/loading-animation.mp4` size - less than **260kb**
+
+Estimated Savings - **2.66 seconds**
+
+Animated GIFs have three key traits that a video needs to replicate:
+
+<ul>
+    <li>They play automatically.</li>
+    <li>They loop continuously (usually, but it is possible to prevent looping).</li>
+    <li>They're silent.</li>
+</ul>
+Using video tag and it's attributes recreated these behaviors.
+
+Details on how to convert artwork[GIF] to video is elaborated [here](https://github.com/sugarlabs/musicblocks/blob/master/video.md).
+
+This step solves many problems of loading issue:-
+<ul>
+    <li>Use video formats for animated content with proper sizing. (Savings - 2.66s )</li>
+    <li>Largest contentful paint. (40s to less than 2s, savings - more than 30s)</li>
+    <li>Makes the android version robust.</li>
+</ul>
+    </li>
+    <li>#3048
+    Changing img to amp-img
+
+AMP may choose to delay or prioritize resource loading based on the viewport position, system resources, connection bandwidth, or other factors. The amp-img components allows the runtime to effectively manage image resources this way.
+
+Potential savings :-
+Memory = **276.5kb + 18.3kb**
+Time = **0.2s**
+    </li>
+</ol>
+
+`Eliminate render blocking resources was also a potential method to save more load time however these changes make the index.html file very unreadable and have a little or no affect on loading reliability of requirements and thus making a script inline is not a very efficient solution to the problem at hand , henceforth will be discontinued .`
+[Learn More](https://github.com/sugarlabs/musicblocks/pull/3040).
 
 After implementation:- 
 
@@ -154,12 +196,11 @@ After implementation:-
 ![Loading Report](assests/../assets/images/loading9.png)
 ![Loading Report](assests/../assets/images/loading12.png)
 
-Overall Performance Score :- 76/100
+`Overall Performance Score :- **76/100**`
 
 ![Loading Report](assests/../assets/images/loadingResult.png)
 
-Loading reliability and speed is increased from 29/100 to 76/100 .
-Improvement of more than 162% .
+`**Loading reliability** and speed is increased from **29/100** to **76/100** . Improvement of more than **162%** .`
 
 
 `This issue addresses the barebones and major sections by which loading reliability is very low`:
