@@ -221,19 +221,19 @@ Overall Performance Score :- **76/100**
     </tr>
 </table>
 
-`There were total of six commits .`
+`There were total of six commits consisting of defer offscreen images, using video formats and proper sizing of media files.`
 
 ## 📝 Cross Origin Errors
 
 **Before:-**
-![Loading Report](assests/../assets/images/coe1.png)
+![Cross origin](assests/../assets/images/coe1.png)
 
 **Solution:-**
 
 Cross origin is arising due to the fonts that are being accessed from google API , removing that section of code resolves this issue.
 
 **After:-**
-![Loading Report](assests/../assets/images/coe2.png)
+![Cross origin](assests/../assets/images/coe2.png)
 
 <table>
     <tr>
@@ -291,12 +291,12 @@ whenever there are two white keys in a row. E==Fb and E#==F; B==Cb and B#==C
     <tr>
         <td> 🐛 Issue </td> 
         <td> #3055 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3055" target="_top">Artboard Manager Framework </a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3055" target="_top">Regression in musicutils code</a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
         <td> #3054 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3054" target="_top">Manager PR</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3054" target="_top">Regression Resolved</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
@@ -305,50 +305,68 @@ whenever there are two white keys in a row. E==Fb and E#==F; B==Cb and B#==C
     </tr>
 </table>
 
-There were total three commits consisting of actual code change and then formatting of code through prettier to follow the style of rest of the code. 
+`There were total three commits consisting of actual code change and then formatting of code through prettier to follow the style of rest of the code. `
 
 
 ## 📝 Documentation Maintenance
 
-This can be divided into *two* sub parts. The *first* part is to integrate manager with other artboard components and *second* is to integrate it with monitor which will connect it with other components.
-It was required that *the manager component* should also maintain a list of all the *turtles* with their own unique *id*, this list should match the ArtBoard list. 
+This work was basically divided into two major portions, first to fix the way **image is linked to readme files** as the link to images(svg files) should appear in proper format showing the hierarchy of folders and files where it is located instead of camo image link that was appearing before and added missing image example like `no-clock.svg` .
 
-For example, any insertion/deletion of any artboard in the list should also reflect in the turtle list.
-This turtle list should be passed as a `prop` to `ArtBoardTurtle.tsx.` All the `n` turtles will be on the topmost canvas on a single canvas. Therefore to create n canvases we will require n artBoardSketch and 1 ArtBoardTurtle. These things are maintained by the *manager component*.
+![image link](assests/../assets/images/imglink.png)
+
+Second, was **set-key documenation**, in which the proper description was to be added for set-key block with an example and table of how key, modes and pattern changes with the value of set key block.
+
+[Set Key](https://github.com/Traitor000/musicblocks/tree/set-key/guide#325-set-key)
+
 <table>
     <tr>
         <td> 🐛 Issue </td> 
-        <td> #69 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/69" target="_top">Manager and Monitor </a></td>
-    </tr>
-    <tr>
-        <td> 🐛 Issue </td> 
-        <td> #83 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/83" target="_top"> Manager and Artboard Props</a></td>
+        <td> #3061 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/3061" target="_top">Image link in docx </a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
-        <td> #87 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/87" target="_top">Artboard Manager and Monitor</a></td>
+        <td> #3069 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3069" target="_top">fixed img link and added no-clock.svg</a></td>
+    </tr>
+    <tr>
+        <td> 🔀 PR </td> 
+        <td> #3070 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3070" target="_top">Set-Key</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
-        <td> 8 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/87/commits" target="_top"> manager-monitor-commits</a></td>
+        <td> 15 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3070/commits" target="_top"> set key and img link commits</a></td>
     </tr>
 </table>
 
-There were a total of *eight* commits which include adding types and definitons for manager class in monitor, adding methods to `create`, `remove`, `update` artboards, etc.
+`There were a total of *fifteen* commits which include adding image, table and description of set key and image link fix with no-clock.svg.`
 
 ## 🚀 Other bugs and fixes
 
-The last week was reserved for testing but I used to test my code after frequently before making any PR. Also, for a side note, I used to take notes, document every point during the daily meetups. These things really helped me in writing this report. Every file has a README.md file which contains all the documentation.
+Other than the main aim of the project, along the way I also made fixes that will ease the work for future contributors , and also become very handy to the users of v3.
+
+<ul>
+    <li>Deleted galton-music.html (unnecessary file)</li>
+    <li>Removed Warning when longer than 2 notes are played.</li>
+</ul>
 
 <table>
     <tr>
+        <td> 🐛 Issue </td> 
+        <td> #3065 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/3065" target="_top">Warning for long notes</a></td>
+    </tr>
+    <tr>
         <td> 🔀 PR </td> 
-        <td> #89 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/89" target="_top">Documenation for artboards</a></td>
+        <td> #3067 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3067" target="_top">Removed warning</a></td>
+    </tr>
+     <tr>
+        <td> 🔀 PR </td> 
+        <td> #3041 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3041" target="_top">Deleted galton-music.html</a></td>
     </tr>
 </table>
 
@@ -356,12 +374,20 @@ The last week was reserved for testing but I used to test my code after frequent
 
 ### ✨ Enhancements
 
-There are many enhancements that can be done particularly to artboards. Currently we heavily use props and it renders frequently which affects the performance of the application. We can use **context hook**,**Hot module**, etc
-to improve the performance. We can add features to save artworks in `png`, `svg` format.Just like `p5 wrapper` we can also put the code for art board in a separate utility. Check [here](https://github.com/Gherciu/react-p5/tree/main/src) for more details.
+There are many enhancements that can be done particularly to improve characterization and modularity of code which will further improve the loading reliability, also there are many small bugs which can be resolved which are listed in the issues section of the repository.
+
+Some issues that are particularly fun to solve are :-
+
+[#3064](https://github.com/sugarlabs/musicblocks/issues/3066)
+
+[#3066](https://github.com/sugarlabs/musicblocks/issues/3064)
+
+[#3011](https://github.com/sugarlabs/musicblocks/issues/3011)
+
 
 ### 👨 Acknowledgements
 
-On a final note, I am extremely grateful to my mentors, [Walter Bender](https://web.media.mit.edu/~walter/), [Devin Ulibarri](https://github.com/pikurasa) and [Anindya Kundu](https://github.com/meganindya).I am also very thankful for their motivation which helped me in improving the quality of my code and helping me improve my soft skills.
+On a final note, I am extremely grateful to my mentors, [Walter Bender](https://web.media.mit.edu/~walter/), [Devin Ulibarri](https://github.com/pikurasa) and [Anindya Kundu](https://github.com/meganindya).I am also very thankful for their regular feedbacks and constant support throughout which helped me in improving the quality of my code and helping me improve my soft skills which reulted in successful completetion of the project within the time period.
 
 Thanks to [Google](https://www.google.com/), [GSoc](https://summerofcode.withgoogle.com/) ,[Sugarlabs](https://www.sugarlabs.org/) and [MusicBlocks](https://musicblocks.sugarlabs.org/) for this great opportunity.
 
