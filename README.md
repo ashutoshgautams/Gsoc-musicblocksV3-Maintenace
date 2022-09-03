@@ -244,7 +244,7 @@ Cross origin is arising due to the fonts that are being accessed from google API
     <tr>
         <td> 🔀 PR </td> 
         <td> #3050 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3050" target="_top">Mcross origin errors removed</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3050" target="_top">cross origin errors removed</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
@@ -255,9 +255,35 @@ Cross origin is arising due to the fonts that are being accessed from google API
 
 ## 📝 Regression in music utils 
 
-![Loading Report](assests/../assets/images/regression1.png)
-![Loading Report](assests/../assets/images/regression2.png)
-![Loading Report](assests/../assets/images/regression3.png)
+**For the blocks :-**
+![Regression](assests/../assets/images/regression1.png)
+
+![Regression](assests/../assets/images/regression2.png)
+
+`F♯4, G♯4, A♯4, B4, C♯5, D♯5, E♯5 F♯5, G♯5, A♯5, B5, C♯6, D♯6, E♯6` is what one would expect to see
+So the transition from D#5 to F5 is where things begin to break down.
+The F# through A# are skipped for some reason.
+Maybe it gets confused when it does the conversion from D# to F (which it really should not be doing in F# Major)
+
+**Solution:-**
+
+F# major is broken due to a nomenclature anomaly
+F# major (full, full, half, full, full, full, half) is:
+`F# -> G# -> A# -> B -> C# -> D# -> E# -> (+1)F#`
+this is the internal representation used
+`F#, G#, A#, B, C#, D#, E#, F#`
+the thing is ... E# is same as F
+so the code is trying to find F in the scale (list) but the list instead has E#
+improve on the "find in list". Instead of string equality if you can find logical equality it should fix it.
+Say something like
+obj.findIndex(item => logicalEquals(item, thisPitch))
+the new logicalEquals function should return true for E# and F, E and Fb, etc but false for say E# and F#
+whenever there are two white keys in a row. E==Fb and E#==F; B==Cb and B#==C
+
+![Regression](assests/../assets/images/Regression Resolution.png)
+
+**After implementation:-**
+![Regression](assests/../assets/images/regression3.png)
 
 <table>
     <tr>
