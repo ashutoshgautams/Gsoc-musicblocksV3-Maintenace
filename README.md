@@ -182,50 +182,36 @@ Improvement of more than 162% .
     </tr>
 </table>
 
-`There were total of seven commits which included adding artboard canvas with typescript support, p5 sketch in instance mode, etc.`
+`There were total of six commits .`
 
 ## 📝 Cross Origin Errors
 
-This part was partially done under the prototype, as the file structure was designed keeping in mind that p5 sketches need to be wrapped in react components.The basic idea is that the p5.js sketch is wrapped in a React component. **The data that comes into the sketch is passed on to this component as props**. Callbacks(React Hooks) are used to return information back from the sketch to the application. This specifically refers to handle multiple p5 sketches on the same screen. 
-
-**There is one-to-one relation between artboard and turtle, i.e every artboard is associated with unique turtle.**
-
-This idea helped in *generalisation* for message passing to each artboard from manager easy. Kudos to **JoyKirat Singh** fellow participant for writing all the draw functions keeping this architecture in mind.
-
-Now anything that needs to be changed dynamically in p5 sketch can be passed as a **prop** to the sketch component and then add it as a dependency in useEffect hook for the sketch component. 
-
-![UpdateWithProps](assets/images/update_sketch.png)
-
-Now if the value of `prop` changes, the hooks `automatically` updates itself and changes gets reflected in the p5 sketch (as it is passed as a dependency) too. Using this, a `turtle` can draw arcs, lines,rotate at some degree,etc with a prop passed for each function. 
-
-![](assets/images/canvas.png)
-
-This also makes possible to `communicate` from sketch back to the application by changing the prop value. For example, if moving `turtle` needs to be stopped just set the prop for movement to false, it will stop moving. This is also possible due to hooks. 
+![Loading Report](assests/../assets/images/coe1.png)
+![Loading Report](assests/../assets/images/coe2.png)
 
 <table>
-<tr>
-    <td><b>useRef()</b</td> 
-    <td>For P5, we need to resort to instance mode and feed it a reference node.
-We declare a reference variable called "canvasRef" using React's useRef hook. This just let's our p5 library have a node or reference insertion point. It's important that we pass "canvasRef.current" into our DOM function because ".current" gives the actual HTML node we want. And finally, we return some jsx of a div that has the ref attribute equal to the value of our useRef hook variable.</td>
-</tr>
-</table>      
-
-![](assets/images/sketch.png)
-
-This helps in wrapping up p5 sketch in a react component without losing unique reference to it in the DOM. This becomes crucial because we are handling multiple canvases simultaneously. For more detailed example refere [here](https://github.com/sugarlabs/musicblocks-v4/tree/p5-canvas-instance).  
-
+    <tr>
+        <td> 🐛 Issue </td> 
+        <td> #78 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/78" target="_top">Artboard Manager Framework </a></td>
+    </tr>
+    <tr>
+        <td> 🔀 PR </td> 
+        <td> #80 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top">Manager PR</a></td>
+    </tr>
+    <tr>
+        <td> 🎉 Commits </td> 
+        <td> 14 </td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/80" target="_top"> all-commits</a></td>
+    </tr>
+</table>
 
 ## 📝 Regression in music utils 
 
-The `manager component` can handle multiple sketches and turtles. It generates unique ids for each artboard sketch and use it to differentiate between them while sending signals. It stores the ids in a array of list. It also establish communication between artbaord components with other components with the help of **monitor component**. It can add a new artboard(canvas), remove an existing artboard, renders a particular turtle to draw on artboard, etc. It receives `signals` from monitor component to do a change in a particular artboard. It maintains a list of artboards which are currently present in the program. 
-
-Let us see for e.g. how a particular artboard can be `removed`. As a matter of fact, we need to remove the artboard id and `artboard object` from Id list and Artboard list respectively. This logic is contained in the removeArtboard function.
-
-![](assets/images/remove_artboard.png)
-
-Then register this function with the monitor like this - 
-
-![](assets/images/monitor_remove.png)
+![Loading Report](assests/../assets/images/regression1.png)
+![Loading Report](assests/../assets/images/regression2.png)
+![Loading Report](assests/../assets/images/regression3.png)
 
 <table>
     <tr>
@@ -293,19 +279,6 @@ The last week was reserved for testing but I used to test my code after frequent
 </table>
 
 
-## 📦 Demo
-
-✨ Original Music Blocks
-![gsoc-demo](assets/gifs/tree.gif
-)
-
-📚 Implemented prototypes
-![gsoc-demo](assets/gifs/gsoc-demo.gif
-)
-![gsoc-demo](assets/gifs/orig-demo.gif
-)
-![gsoc-demo](assets/gifs/current_tree.gif
-)
 
 ### ✨ Enhancements
 
@@ -314,11 +287,9 @@ to improve the performance. We can add features to save artworks in `png`, `svg`
 
 ### 👨 Acknowledgements
 
-On a final note, I am extremely grateful to my mentors, [Anindya Kundu](https://github.com/meganindya), [Walter Bender](https://web.media.mit.edu/~walter/), [Devin Ulibarri](https://github.com/pikurasa).I am also very thankful for their motivation which helped me in improving the quality of my code and helping me improve my soft skills.
+On a final note, I am extremely grateful to my mentors, [Walter Bender](https://web.media.mit.edu/~walter/), [Devin Ulibarri](https://github.com/pikurasa) and [Anindya Kundu](https://github.com/meganindya).I am also very thankful for their motivation which helped me in improving the quality of my code and helping me improve my soft skills.
 
-I am thankful to my fellow GSoCers [Joykirat Singh](https://github.com/joykirat18), [Daksh Doshi](https://github.com/daksh4469) and [Saurabh](https://github.com/ksraj123/) for all their guidance and for reviewing my Pull requests.
-
-Thanks to [Google](https://www.google.com/),[Sugarlabs](https://www.sugarlabs.org/) and [MusicBlocks](https://musicblocks.sugarlabs.org/) for this great opportunity.
+Thanks to [Google](https://www.google.com/), [GSoc](https://summerofcode.withgoogle.com/) ,[Sugarlabs](https://www.sugarlabs.org/) and [MusicBlocks](https://musicblocks.sugarlabs.org/) for this great opportunity.
 
 Thanks
 
