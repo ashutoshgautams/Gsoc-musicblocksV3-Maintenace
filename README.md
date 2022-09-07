@@ -212,7 +212,7 @@ Overall Performance Score :- **76/100**
     <tr>
         <td> 🔀 PR </td> 
         <td> #3043 #3048 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/71" target="_top">Loading Of Requirements PR</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3043" target="_top">Loading Of Requirements PR</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
@@ -322,22 +322,22 @@ Second, was **set-key documenation**, in which the proper description was to be 
     <tr>
         <td> 🐛 Issue </td> 
         <td> #3061 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/3061" target="_top">Image link in docx </a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3061" target="_top">Image link in docx </a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
         <td> #3069 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3069" target="_top">fixed img link and added no-clock.svg</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3069" target="_top">fixed img link and added no-clock.svg</a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
         <td> #3070 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3070" target="_top">Set-Key</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3070" target="_top">Set-Key</a></td>
     </tr>
     <tr>
         <td> 🎉 Commits </td> 
         <td> 15 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3070/commits" target="_top"> set key and img link commits</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3070/commits" target="_top"> set key and img link commits</a></td>
     </tr>
 </table>
 
@@ -356,17 +356,17 @@ Other than the main aim of the project, along the way I also made fixes that wil
     <tr>
         <td> 🐛 Issue </td> 
         <td> #3065 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/issues/3065" target="_top">Warning for long notes</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/issues/3065" target="_top">Warning for long notes</a></td>
     </tr>
     <tr>
         <td> 🔀 PR </td> 
         <td> #3067 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3067" target="_top">Removed warning</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3067" target="_top">Removed warning</a></td>
     </tr>
      <tr>
         <td> 🔀 PR </td> 
         <td> #3041 </td>
-        <td> <a href="https://github.com/sugarlabs/musicblocks-v4/pull/3041" target="_top">Deleted galton-music.html</a></td>
+        <td> <a href="https://github.com/sugarlabs/musicblocks/pull/3041" target="_top">Deleted galton-music.html</a></td>
     </tr>
 </table>
 
