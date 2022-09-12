@@ -9,8 +9,8 @@ This is a elucidation of my work on
 [V3 Maintenance](https://summerofcode.withgoogle.com/programs/2022/projects/oiE2yRSV)
 during *Google Summer of Code 2022* with
 [Sugar Labs](https://github.com/sugarlabs/). This repository contains
-[links](./authored-files/), samples of my work, and
-examples.The code samples for changes related to improvements and bug fixes are present in [authored files](./authored).
+links, samples of my work, and
+examples.The code samples for changes related to improvements and bug fixes are present in [authored files](./authored-files/).
 </br>
 
 
